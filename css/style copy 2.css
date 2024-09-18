@@ -1,0 +1,228 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #00567e;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Evita el scroll horizontal */
+}
+
+/* Header */
+.logo {
+    margin-left: 5px;
+    width: 20%;
+    height: 130px;
+}
+
+/* Fondo de color de apartado */
+.contacto{
+    border-radius: 2px;
+    background-color: #009fc7;
+    padding: 10px;
+}
+
+.nav {
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0;
+    width: 100%;
+    height: 150px;
+    background-color: #004b8d;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.contacto {
+    margin-right: 22px;
+}
+
+.nav .card:hover{ 
+    background-color: #1a73e8;
+}
+
+
+
+/* Sección datos y forms */
+.contenedor {
+    margin: 0 auto;
+    background-color: #0044ff;
+    border: 1px solid #dddddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 80%;
+    height: auto;
+}
+
+/* Datos de supermercado (Atención al cliente) */
+.title {
+    margin: 0 auto;
+    text-align: center;
+    width: 60%;
+    padding: 20px;
+    background-color: #c1c6f8;
+    color: #000;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+.subTitle {
+    margin: 0 auto;
+    text-align: center;
+    width: 50%;
+    padding: 10px;
+    background-color: #c1c6f8;
+    color: #000;
+    font-size: 30px;
+    align-content: center;
+    font-family: sans-serif;
+}
+
+.divText {
+    display: flex;
+    gap: 10px;
+}
+
+/* Div padre contenedor de datos de supermercado */
+.infoMarket {
+    background-color: #252c81;
+    padding: 25px;
+    margin: 20px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 5px;
+    gap: 150px;
+}
+
+/* Datos de supermercado */
+.infoMarket > li {
+    background-color: #c1c6f8;
+    padding: 10px;
+    list-style: none;
+    color: #000;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Logos de Teléfono y Correo (Atención al cliente) */
+.infoMarket > li > img {
+    width: 50px;
+    height: 50px;
+}
+
+/* Forms */
+.contactForm {
+    margin: 0 auto;
+    padding: 15px;
+    width: 50%;
+    background-color: #1A237E;
+    display: flex;
+    flex-direction: column;
+}
+
+.form {
+    margin-bottom: 10px;
+}
+
+.form > label {
+    display: flex;
+    align-items: center;
+    background-color: #f9f9f9;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.form .icon {
+    margin-right: 10px;
+    color: #1A237E;
+}
+
+span {
+    background-color: #ffffff;
+}
+
+.form input, .form .textarea {
+    border: none;
+    outline: none;
+    flex-grow: 1;
+    font-size: 16px;
+    background-color: transparent;
+}
+
+.form > label:hover {
+    background-color: #dfdfdf;
+}
+
+.form .textarea {
+    resize: none;
+    height: 100px;
+}
+
+.btn {
+    width: 30%;
+    background-color: #008bad;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #00e4ab;
+}
+
+/* Footer */
+.container-footer {
+    background-color: #003a6b;
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+    font-family: 'Arial', sans-serif; /* Mismo estilo que en la página de productos */
+    border-top: 3px solid #00143a; /* Línea superior para separación */
+}
+
+.container-footer > .copyright {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.container-footer > .redes {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 10px 0;
+}
+
+.container-footer > .container-icons {
+    margin-top: 10px;
+    gap: 15px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.container-footer > .container-icons .fa-instagram,
+.container-footer > .container-icons .fa-facebook,
+.container-footer > .container-icons .fa-youtube {
+    background-color: #ffffff;
+    color: #003a6b;
+    padding: 15px;
+    border-radius: 50%;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.container-footer > .container-icons .fa-instagram:hover,
+.container-footer > .container-icons .fa-facebook:hover,
+.container-footer > .container-icons .fa-youtube:hover {
+    background-color: #003a6b;
+    color: #ffffff;
+}
