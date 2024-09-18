@@ -1,0 +1,142 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    min-height: 100vh;
+    background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.listmenu {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: normal;
+    list-style: none;
+    width: 100%;
+}
+.titulo {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: normal;
+    border: 1px solid black;
+    border-radius: 20px;
+    text-align: center;
+    background-color: white ;
+    color: black;
+    width: 100%;
+    height: 100px;
+}
+.cuerpo {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: normal;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-top: 10px;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color:white;
+    color:black;
+    height: 1030px;
+}
+
+.form {
+    background-color: #ffffff;
+    width: 90%;
+    margin: auto;
+    max-width: 400px;
+    border-radius: 1em;
+    padding: 3.5em 1.5em;
+}
+
+.form_container {
+    width: 100%;
+    display: grid;
+    gap: 1em;
+    grid-auto-columns: 100%;
+}
+
+.form_titulo {
+    text-align: center;
+    font-size: 1.9rem;
+    margin-bottom: .4em;
+}
+
+.form_input {
+    font-family: inherit;
+    font-size: 1rem;
+    padding: .8em 1em;
+    outline: none;
+    border: none;
+    border: 1px solid #bbb0b0;
+    border-radius: 0.2em;
+}
+
+.form_input--mensaje {
+    resize: none;
+    padding: 1.8em 1em;
+    margin-bottom: .5em;
+
+}
+
+.form_cta {
+    font-family: inherit;
+    font-size: 1rem;
+    background-color: #089fe0;
+    color: #ffffff;
+    border: none;
+    font-weight: 400;
+    padding: .7em 0;
+    border-radius: .2em;
+    cursor: pointer;
+}
+.card {
+    width: 150px;
+    height: 180px;
+    background-color: rgb(165, 122, 42);
+    border-radius: 10px;
+}
+
+.imgcard1 {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.imgcard2 {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.imgcard3 {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.ofertas {
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 10px;
+
+
+}
+
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+

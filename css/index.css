@@ -1,0 +1,217 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    min-height: 100vh;
+    background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    font-family: 'Montserrat', sans-serif;
+}
+header {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 80px;
+    align-items: center;
+    border-radius: 20px;
+    width: 1500px;
+}
+header .logotipo .logo{
+    width: 90px;
+    height: 90px;
+    border-radius: 70px;
+    margin-top: 10px;
+}
+.listmenu {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: normal;
+    list-style: none;
+    width: 100%;
+}
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    border-radius: 5px;
+}
+header nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    width: 700px;
+    height: 70px;
+}
+header nav ul li {
+    margin: 0 20px;
+    align-items: center;
+}
+header nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    align-items: center;
+    font-size: 1.2em;
+}
+footer {
+    background: white;
+    height: 130px;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 10px;
+    width: 1500px;
+}
+footer .footer-info {
+    font-weight: 600;
+    text-align: center;
+}
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    border-radius: 10px;
+}
+.flex-container {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    padding-top: 60px;
+    border-radius: 15px;
+}
+.card4 {
+    background-color: aquamarine;
+    width: 1500px;
+    height: 500px;
+    margin-top: 20px;
+    padding-top: 40px;
+    border-radius: 15px;
+}
+.somos {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.titulo {
+    margin-left: 30px;
+    font-size: 1.8em;
+    color: #516d5c;
+    margin-bottom: 5px;
+    font-weight: bold;
+    width: 100%;
+}
+.somos-item {
+    background: #f9f9f9;
+    border-radius: 8px;
+    padding: 10px;
+    flex: 1 1 calc(50% - 20px);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+}
+.somos-item:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border: 1px solid black;
+}
+.somos-titulo {
+    font-size: 1.1em;
+    color: #9b8d7f;
+}
+.somos-descripcion {
+    font-size: 0.9em;
+    color: #83776b;
+    line-height: 1.6;
+}
+.caja5 {
+    width: 100%;
+    height: 500px;
+    padding: 10px;
+}
+.contenedorhistoria {
+    position: relative;
+    width: 1480px;
+    height: 95%;
+    padding-top: 60px;
+}
+h1 {
+    text-align: center;
+    font-size: 2em;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: bold;
+    width: 100%;
+}
+.historia {
+    background: white;
+    height: 450px;
+    width: 100%;
+    padding: 5px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    align-content: center;
+}
+.historia-descripcion {
+    font-size: 1em;
+    color: black;
+    line-height: 1.6;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.contenedorhistoria .historia p{
+    color: black;
+    margin-left: 15px;
+    text-align: center;
+    font-weight: 500;
+}
+.card {
+    width: 150px;
+    height: 180px;
+    background-color: rgb(165, 122, 42);
+    border-radius: 10px;
+}
+.card:hover {
+    transform: scale(1.1);
+    font-weight: 700;
+}
+.bienvenida:hover {
+    color: red;
+}
+.imgcard1 {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.imgcard2 {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.imgcard3 {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.ofertas {
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 10px;
+}
