@@ -5,7 +5,7 @@ let arrPrecios=[100.25.toFixed(2),50.48.toFixed(2),60.00.toFixed(2),90.23.toFixe
     70.20.toFixed(2),90.60.toFixed(2),40.00.toFixed(2),5.15.toFixed(2),20.00.toFixed(2)]; //ayuda del profe Mauri el .tofixed
 let arrStock=[10,5,6,8,7,10,3,4,5,6];
 let arrImagenes=["../img/yerba.jfif", "../img/azucar.jfif", "../img/pan.jfif", "../img/leche.jfif",
-    "../img/carnePicada.jpg", "../img/fideos.jfif", "../img/tomate.jfif", "../img/lechuga.jfif",
+    "../img/carnePicada.jfif", "../img/fideos.jfif", "../img/tomate.jfif", "../img/lechuga.jfif",
     "../img/papa.jfif", "../img/gaseosa.jfif"];
 let arrTextAlt=["Yerba Playadito x 1 Kg", "Azucar Ledesma x 1 Kg", "Pan x 1 Kg", "Leche La Serenisima x 1 Lt", 
     "Carne picada x 1 Kg", "Fideos mostachol Matarazzo x 500 Gr", "Tomate x Kg", "Lechuga x Kg", "Papa x Kg", 
