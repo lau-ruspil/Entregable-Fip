@@ -1,0 +1,330 @@
+body{
+    background: url(./../images/fondoCarrito.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/*INDEX.HTML*/
+.supermercado-imagenes{
+    display: flex;
+    max-width: 100%;
+    height: auto;
+    justify-content: space-evenly;
+}
+.sub-title-index{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    font-size: 60px;
+    color: rgb(66, 66, 71);
+}
+.img-inn-super{
+    border-radius: 10px;
+}
+.principal{
+    display: flex;
+    border-top: 5px solid black;
+    border-bottom: 3px solid black;
+    margin: 20px;
+}
+.principal-div{
+    padding: 30px;
+    
+}
+.principal-p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+.principal-p-s{
+    color: rgb(235, 9, 9);
+    background-color: rgb(247, 231, 10);
+    border: 2px double black;
+    border-radius: 5px;
+}
+.div-title-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.title-main{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    color: rgb(235, 9, 9);
+    background-color: rgb(247, 231, 10);
+    border: 6px double black;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/*HEADER*/
+.header{
+    padding: 50px 0;
+    border-bottom: 2px solid rgb(70, 68, 68);
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.navegador{
+    text-decoration: none;
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(61, 60, 60);
+}
+
+/*IMAGENES DINAMICAS DIV*/
+.div1{
+    background: url(./../images/div1.webp);
+}
+.div2{
+    background: url(./../images/div2.webp);
+}
+.div1, .div2{
+    height: 25%;
+    width: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 25px;
+}
+.div3{
+    background: url(./../images/07_Home_OfertazosGM_Dsktpv2.avif);
+    border-top-right-radius: 80px;
+    border-bottom-left-radius: 80px;
+}
+.div4{
+    background: url(./../images/07_Home_EspecialDulzura_Dsktpv3.avif);
+    border-top-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+}
+.div3, .div4{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    width: 100%;
+}
+.hidden {
+    display: none;
+}
+
+/*IMAGENES FIJAS*/
+.div5{
+    background: url(./../images/div5\(1\).webp);
+}
+.div6{
+    background: url(./../images/div5.webp);
+}
+.div7{
+    background: url(./../images/div7\(1\).webp);
+}
+.div5, .div6, .div7{
+    height: 25%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 25px;
+}
+
+/*PRODUCTOS.HTML - IMAGENES-PRODUCTOS-PRECIO-STOCK*/
+.container-section{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.product, .price, .images{
+    width: 25%;
+}
+.product-title, .price-title, .input-title{
+    font-size: 24px;
+    text-align: center;
+    margin: 0;
+    color: rgb(106, 100, 112);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.input-title{
+    margin-bottom: 15px;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    width: 8%;
+}
+.product-list, .input{
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+}
+.product-list{
+    padding: 0;
+}
+.images{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.description, .price-item, .product-item{
+    text-align: center;
+}
+.image{
+    width: 180px;
+    height: 10%;
+    object-fit: scale-down; 
+    border: 1px solid orangered;
+    border-radius: 90px;
+}
+.product-item, .price-item{
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.stock{
+    margin-top: 67px;
+    margin-bottom: 67px;
+    font-size: 24px;
+    font-weight: 600px;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: aqua;
+    height: 40px;
+    width: 60px;
+}
+li {
+    justify-content: center;
+    color: blue;
+}
+.azucar{
+    height: 180px;
+    width: 180px;
+    border: 1px solid orangered;
+    border-radius: 90px;
+}
+
+/*BOTONES*/
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.text-total{
+    display: inline;
+    font-size: 40px;
+    width: 300px;
+    color: rgb(12, 12, 117);
+    font-weight: 600;
+    border: 6px double rgb(12, 12, 117);
+    border-radius: 15px;
+}
+.boton-comprar, .send{
+    font-size: 24px;
+    color: aqua;
+    border-radius: 20px;
+    width: 240px;
+    height: 60px;
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.boton-comprar{
+    font-weight: 600;
+}
+.section-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.send{
+    margin-bottom: 50px;
+    border-bottom: 5px;
+}
+.send:hover, .boton-comprar:hover{
+    cursor: pointer;
+}
+
+/*FOOTER*/
+.footer{
+    background-color: rgb(37, 81, 121);
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.contact-data{
+    font-weight: 600;
+    color: rgb(14, 11, 11);
+}
+.contact-data, .footer-p{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+}
+.footer-p{
+    color: rgb(192, 189, 189);
+}
+
+/*FORMULARIO - DATOS CONTACTO*/
+.form{
+    display: flex;
+    flex-wrap: wrap;
+    height: 600px;
+}
+.section-data{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    margin-left: 5%;
+    height: 500px;
+}
+.contact{
+    height: 100%;
+}
+.section-data-input {
+    height: 12.5%;
+    border-radius: 45px;
+}
+.section-data-label, .section-data-input, .section-data-textarea{
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.section-data-textarea{
+    border-radius: 10px;
+}
+.sub-title-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    font-size: 60px;
+    color: rgb(66, 66, 71);
+}
+.contact-data-super{
+    display: flex;
+    flex-direction: column;
+align-items: center;
+}
+.contact-data-super-h, .contact-data-super-p{
+    font-weight: 600;
+    color: rgb(84, 87, 87);
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+}
+.contact-data-super-p{
+    color: rgb(53, 54, 54);
+    font-size: 22px;
+}
